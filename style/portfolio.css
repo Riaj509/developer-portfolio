@@ -86,10 +86,12 @@ nav li {
     max-width: 1140px;
     margin: 0px auto;
 }
+section {
+    margin-top: 130px;
+}
 
 /* About section styles */
 .about {
-    margin-top: 130px;
     background-color: #fff8f3;
     border-radius: 10px;
     padding: 85px 95px 177px 218px;
@@ -159,4 +161,46 @@ nav li {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+}
+
+/* resume-content */
+
+.resume-content {
+    margin-top: 113px;
+    display: flex;
+    gap: 24px;
+}
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
 }
