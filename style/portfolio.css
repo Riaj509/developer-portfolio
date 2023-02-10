@@ -80,6 +80,12 @@ nav li {
 .banner .btn-primary {
     padding: 19px 17px 18px 51px;
 }
+.banner .btn-secondary {
+    padding: 18px 23px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fd6e0a;
+}
 
 /* Main section */
 .main-section {
@@ -222,7 +228,8 @@ hr {
     margin-bottom: 30px;
 }
 
-.contact input,
+.contact input[type="text"],
+input[type="email"],
 textarea {
     margin-bottom: 24px;
     border: 0;
