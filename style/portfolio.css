@@ -19,6 +19,21 @@
     border-radius: 5px;
 }
 
+.btn-primary-1 {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    color: white;
+    padding: 18px 35px 19px 36px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+
+.btn-primary-1:nth-child(1) {
+    margin-right: 15px;
+}
+
 .header {
     background-color: #fff8f3;
     background-image: url("/developer-portfolio/images/header_bg.png"),
